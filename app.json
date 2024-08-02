@@ -24,7 +24,7 @@
       },
       "STRING_SESSION": {
         "description": "⦗ V2 ⦘ ↫ كـود جلسـة الحسـاب المساعـد لـ الميـوزك",
-        "value": "",
+        "value": "BAGi8fAAgkLxuHXY2qIXGzAWTwxFE2-G4Ml0vMVB8wVtEU97JjS7VSEl34DEaOSmMk6y0S2SYq3doIbDl1_bfc_9j0B19C0pqs9uSTbURPE85yOWt3PoqjepeZjUO5paFZDRAc4rA1SUt3YmqB1B0cI8z4Wk7j4tZ9AWyTw7b4mAR82_BN-VjQrgDgFb99qBzLLm6HYLDO6nmbryLB54PI4B9sxjPzOW9if03D9J4Mj2hi85D0k43Y7t9-qqCbLY3eDQLDux8SJeskkSk9i3fn-4DlnQkCNk1GoRjI7jkRVZpi2UZU8u15fDDDt4Z7pnvAkOmYUPS0veNMPVRzuHIEWyVWLvrQAAAAGqfwr9AA",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -39,7 +39,7 @@
       },
       "LOGGER_ID": {
         "description": "ايـدي قروب السـجل",
-        "value": "-100",
+        "value": "-1001626997477",
         "required": true
       }
     },
