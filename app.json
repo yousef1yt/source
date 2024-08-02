@@ -1,0 +1,64 @@
+{
+    "name": "ميـوزك اكس",
+    "description": "- لـ تشغيـل الاغانـي والفيديـو وبث المباشـرة فـي المكالمـات الصوتيـه والمرئيـة عـلى تيليجــرام",
+    "logo": "https://graph.org/file/4f89eab4c95ae1f68d826.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "Zelzal",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "BOT_TOKEN": {
+        "description": "⦗ @Botfather ⦘ ↫ تـــوكـــن الـبـوت",
+        "value": "7047183887:AAFA8pfgf9gt4vDy_1BnKzD2xLGPNUs4Rq8",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "⦗ ايـــدي المطـــور ⦘ ↫ مطـــور بـــوت الميـــوزك",
+        "value": "6094238403",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "⦗ V2 ⦘ ↫ كـود جلسـة الحسـاب المساعـد لـ الميـوزك",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "⦗ https://dashboard.heroku.com/account ⦘ ادخـل كود ايبـي كـي",
+        "value": "HRKU-d55d5bde-0d47-4235-b30e-0c678f1a1014",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "⦗ اســـم التطبيـــق - نفـس اول مربـع بالقائمـة نسـخ لصـق حـروف انكلـش سمــول ⦗ صغيـره فقـط",
+        "value": "",
+        "required": false
+      },
+      "LOGGER_ID": {
+        "description": "ايـدي قروب السـجل",
+        "value": "-100",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "basic"
+          }
+      },
+      "stack": "container"
+  }
