@@ -42,7 +42,7 @@ async def Mazen_bot(client, message):
     ])
     
     await message.reply_text(
-        text=f"**[{bar}](https://t.me/{bot_username}?startgroup=True)**",
+        text=f"**[{bar}](https://t.me/P_6_B)**",
         disable_web_page_preview=True,
         reply_markup=keyboard,
     parse_mode=enums.ParseMode.MARKDOWN)
