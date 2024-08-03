@@ -21,7 +21,7 @@ async def must_join_channel(bot: Client, msg: Message):
                     f"⌯︙عذࢪاَ حَبيبي ↫ {msg.from_user.mention} \n⌯︙عـليك الاشـتࢪاك في قنـاة البوت .\n⌯︙قناة : t.me/cecrr 🍓.\nꔹ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ꔹ",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("كِتابات خَارج السرب", url=link)]
+                        [InlineKeyboardButton(". 𝖠 ' 𝟣𝟣𝟣 .", url=link)]
                     ])
                 )
                 await msg.stop_propagation()
