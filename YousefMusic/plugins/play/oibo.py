@@ -13,11 +13,11 @@ from YousefMusic import app
 
 
 ########################### بوت حذف
-@app.on_message(filters.command(["الحذف", "عاوز احذف", "عاوزه احذف"], ""))
+@app.on_message(filters.command(["بوت حذف", "بدي احذف", "بوت الحذف"], ""))
 async def svksksa(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph//file/a6137caa707bdb1247d7c.jpg",
-        caption=f"""[خش احذف محدش هيمسك فيك يلا غور فداهية 😂❤](https://t.me/LC6BOT)""",
+        caption=f"""[فوت احذف محد هيمسك فيك يلا قمنقلع 😂❤](https://t.me/LC6BOT)""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
