@@ -14,7 +14,7 @@ async def get_prayer_times(address, method, school):
 
 @app.on_message(filters.command(["اوقات الصلاه"], ""))
 async def get_times(client, message):
-        address = "Cairo"
+        address = "Türkiye"
         method = 4  
         school = 0  
         prayer_times = await get_prayer_times(address, method, school)
