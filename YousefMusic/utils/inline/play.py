@@ -34,27 +34,7 @@ def stream_markup_timer(_, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
-    if 0 < umm <= 10:
-        bar = "◉—————————"
-    elif 10 < umm < 20:
-        bar = "—◉————————"
-    elif 20 <= umm < 30:
-        bar = "——◉———————"
-    elif 30 <= umm < 40:
-        bar = "———◉——————"
-    elif 40 <= umm < 50:
-        bar = "————◉—————"
-    elif 50 <= umm < 60:
-        bar = "—————◉————"
-    elif 60 <= umm < 70:
-        bar = "——————◉———"
-    elif 70 <= umm < 80:
-        bar = "———————◉——"
-    elif 80 <= umm < 95:
-        bar = "————————◉—"
-    else:
-        bar = "—————————◉"
-    buttons = [
+    
                 [
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
@@ -67,9 +47,9 @@ def stream_markup_timer(_, chat_id, played, dur):
             
         ],[
             InlineKeyboardButton(text="‹ CHANNEL ›", url=f"https://t.me/cecrr"),
-            InlineKeyboardButton(text="‹ 𝚂𝙾𝚄𝚁𝙲𝙴 ›", url=f"https://t.me/P_6_B"),
+            
         ],[
-            InlineKeyboardButton(text="- 𝙔𝙤𝙪𝙨𝙚𝙛", url=f"https://t.me/cecrr"),
+            InlineKeyboardButton(text="- 𝙔𝙤𝙪𝙨𝙚𝙛", url=f"https://t.me/y_o_v"),
         ],[
             InlineKeyboardButton(text="اضف البوت الي مجموعتك او قناتك⚡", url=f"https://t.me/{app.username}?startgroup=true")],
     ]
@@ -85,7 +65,7 @@ def stream_markup(_, chat_id):
             
         ],[
             InlineKeyboardButton(text="‹ CHANNEL ›", url=f"https://t.me/cecrr"),
-            InlineKeyboardButton(text="‹ 𝚂𝙾𝚄𝚁𝙲𝙴 ›", url=f"https://t.me/P_6_B"),
+        
         ],[
             InlineKeyboardButton(text="- 𝙔𝙤𝙪𝙨𝙚𝙛", url=f"https://t.me/y_o_v"),
         ],[
