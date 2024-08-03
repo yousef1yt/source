@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, 
 from pytgcalls.exceptions import NoActiveGroupCall
 from config import START_IMG_URL
 import config
-from YousefMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from YousefMusic import Apple, Resso, Spotify, Telegram, YouTube, app
 from YousefMusic.core.call import Alexa
 from YousefMusic.utils import seconds_to_min, time_to_seconds
 from YousefMusic.utils.channelplay import get_channeplayCB
