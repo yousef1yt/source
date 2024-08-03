@@ -42,9 +42,9 @@ def stream_markup_timer(_, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],[  
-            InlineKeyboardButton(text="𝐄𝐍𝐃", callback_data=f"ADMIN Stop|{chat_id}"),
-            InlineKeyboardButton(text="𝐑𝐄𝐒𝐔𝐌𝐄", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="𝐏𝐀𝐔𝐒𝐄", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="انهاء", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="استكمال", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="ايقاف", callback_data=f"ADMIN Pause|{chat_id}"),
             
         ],[
             InlineKeyboardButton(text="𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ", url=f"https://t.me/cecrr"),
@@ -60,9 +60,9 @@ def stream_markup_timer(_, chat_id, played, dur):
 def stream_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="𝐄𝐍𝐃", callback_data=f"ADMIN Stop|{chat_id}"),
-            InlineKeyboardButton(text="𝐑𝐄𝐒𝐔𝐌𝐄", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="𝐏𝐀𝐔𝐒𝐄", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="انهاء", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="استكمال", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="ايقاف", callback_data=f"ADMIN Pause|{chat_id}"),
             
         ],[
             InlineKeyboardButton(text="𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ", url=f"https://t.me/cecrr"),
