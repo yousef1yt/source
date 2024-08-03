@@ -40,7 +40,7 @@ async def start_group_call(c: Client, m: Message):
     if assistant is None:
         await app.send_message(chat_id, "خطأ في المساعد")
         return
-    msg = await app.send_message(chat_id, "تم تشغيل المكالمه يحب❤")
+    msg = await app.send_message(chat_id, "تم تشغيل المكالمه يحب ⚡")
     try:
         peer = await assistant.resolve_peer(chat_id)
         await assistant.invoke(
@@ -52,7 +52,7 @@ async def start_group_call(c: Client, m: Message):
                 random_id=assistant.rnd_id() // 9000000000,
             )
         )
-        await msg.edit_text("جاري تشغيل المكالمه يحب❤")
+        await msg.edit_text("جاري تشغيل المكالمه يحب ⚡")
     except ChatAdminRequired:
       try:    
         await app.promote_chat_member(chat_id, assid, privileges=ChatPrivileges(
@@ -87,7 +87,7 @@ async def start_group_call(c: Client, m: Message):
             can_promote_members=False,
             ),
         )                              
-        await msg.edit_text("تم تشغيل المكالمه يحب❤")
+        await msg.edit_text("تم تشغيل المكالمه يحب ⚡")
       except:
          await msg.edit_text("خلي البوت معاه صلاحية اضافة مشرفين والتحكم ف المحادثه الصوتيه او خلي حساب المساعد مشرف")
 @app.on_message(filters.regex("^قفل كول$"))
@@ -108,7 +108,7 @@ async def stop_group_call(c: Client, m: Message):
         ):  
            return
         await assistant.invoke(DiscardGroupCall(call=group_call))
-        await msg.edit_text("جاري تعطيل المكالمه يحب❤")
+        await msg.edit_text("جاري تعطيل المكالمه يحب ⚡")
     except Exception as e:
       if "GROUPCALL_FORBIDDEN" in str(e):
        try:    
@@ -141,7 +141,7 @@ async def stop_group_call(c: Client, m: Message):
             can_promote_members=False,
             ),
          )                              
-         await msg.edit_text("تم تعطيل المكالمه يحب❤")
+         await msg.edit_text("تم تعطيل المكالمه يحب ⚡")
        except:
          await msg.edit_text("خلي البوت معاه صلاحية اضافة مشرفين والتحكم ف المحادثه الصوتيه او خلي حساب المساعد مشرف")
 
