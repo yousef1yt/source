@@ -2,7 +2,7 @@
         [InlineKeyboardButton("Ⴆᥲ️ᥴk", callback_data="Yrw1 " + str(m.from_user.id))],
         [InlineKeyboardButton("➡️ التالي", callback_data="Yrw3 " + str(m.from_user.id))],
         [InlineKeyboardButton("رجوع🗑", callback_data="moslsl " + str(m.from_user.id))],
-        [InlineKeyboardButton("𝐒𝐎𝐔𝐑𝐂𝐄 𝐁𝐎𝐃𝐀", url=f"https://t.me/l2_2Y")],
+        [InlineKeyboardButton("Source X Music", url=f"https://t.me/P_6_B")],
 """
 
 import asyncio
@@ -24,7 +24,7 @@ async def aflamAR(c: Client, m: Message):
         [InlineKeyboardButton("مسلسلات 📼", callback_data="moslsl " + str(m.from_user.id))],
         [InlineKeyboardButton("كارتون للاطفال 🎭 ", callback_data="msrahia " + str(m.from_user.id))],
 
-        [InlineKeyboardButton("𝗦𝗼𝘂𝗿𝗰𝗲 𝗫", url=f"https://t.me/F_U_O")],
+        [InlineKeyboardButton("Source X Music", url=f"https://t.me/P_6_B")],
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{app.username}?startgroup=new")],
         
     ])
@@ -44,7 +44,7 @@ async def aflamAR2(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("مسلسلات 📼", callback_data="moslsl " + str(m.from_user.id))],
         [InlineKeyboardButton("كارتون للاطفال 🎭 ", callback_data="msrahia " + str(m.from_user.id))],
 
-        [InlineKeyboardButton("ՏΌႮᎡᏟᎬ ᏞΌͲႮՏ", url=f"https://t.me/l2_2Y")],
+        [InlineKeyboardButton("Source X Music", url=f"https://t.me/P_6_B")],
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{app.username}?startgroup=new")],
         
     ])
@@ -64,7 +64,7 @@ async def film(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("دراما 🌚", callback_data="drama " + str(m.from_user.id))],
 
         [InlineKeyboardButton("رجوع🗑", callback_data="aflamAR2 " + str(m.from_user.id))],
-        [InlineKeyboardButton("ՏΌႮᎡᏟᎬ ᏞΌͲႮՏ", url=f"https://t.me/l2_2Y")],
+        [InlineKeyboardButton("Source X Music", url=f"https://t.me/P_6_B")],
 
     ])
     await m.message.edit_text("◍ اهلا بيك في قائمة الافلام العربيه\n√", reply_markup=keyboard)
@@ -106,7 +106,7 @@ async def comedy(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("⌯ البدله", callback_data="Xco20 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("رجوع🔙", callback_data="film " + str(m.from_user.id))],
-        [InlineKeyboardButton("➥𝚂́𝙾𝚄𝚁𝙲𝙴 𝙻𝙾𝚃𝚄𝚂♲", url=f"https://t.me/l2_2Y")],
+        [InlineKeyboardButton("➥Source X Music", url=f"https://t.me/P_6_B")],
 
     ])
     await m.message.edit_text("◍ اهلا بك في قائمة الافلام الكوميدي العربيه\n√", reply_markup=keyboard)
