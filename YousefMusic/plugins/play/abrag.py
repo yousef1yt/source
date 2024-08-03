@@ -27,12 +27,12 @@ async def abrag(c: Client, m: Message):
         [InlineKeyboardButton("الميزان", callback_data="elmezaan " + str(m.from_user.id))],
         [InlineKeyboardButton("العقرب", callback_data="elaqrab " + str(m.from_user.id))] +
         [InlineKeyboardButton("القوس", callback_data="elqoos " + str(m.from_user.id))],
-         [InlineKeyboardButton(" ●○𝐋𝐎𝐓𝐔𝐒○●", url=f"https://t.me/l2_2Y")],
-         [InlineKeyboardButton("𝐒𝐎𝐔𝐑𝐄𝐂 𝐋𝐎𝐓𝐔𝐒", url=f"https://t.me/l2_2Y")],
-        [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{app.username}?startgroup=new")],
+         [InlineKeyboardButton("- 𝙔𝙤𝙪𝙨𝙚𝙛", url=f"https://t.me/y_o_v")],
+         [InlineKeyboardButton("Source X Music", url=f"https://t.me/P_6_B")],
+        [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ⚡", url=f"https://t.me/{app.username}?startgroup=new")],
 
     ])
-    await m.reply_text("• مرحبآ بك عزيزي × قسم ( ابراج ) آنقر علي الازرار لآختيار برجك 🤸‍♂️", reply_markup=keyboard)
+    await m.reply_text("مرحبآ بك عزيزي  قسم ( ابراج ) آنقر علي الازرار لآختيار برجك•", reply_markup=keyboard)
 
 
 @app.on_callback_query(filters.regex("^elgadee (\\d+)$"))
@@ -57,7 +57,7 @@ async def elgadee(c: Client, m: CallbackQuery):
 async def eldaloo(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🥷", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر", show_alert=True)
         return
     await m.message.delete()
     abrag_text = """•︙برج الدلو
