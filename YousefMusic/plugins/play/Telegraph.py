@@ -47,7 +47,7 @@ async def telegraph_upload(bot, update):
         print(error)
         return    
     await text.edit_text(
-        text=f"<b>إليك رابط التلكراف الذي تم إنشاؤه 💞 :-</b>\n\n<code>https://te.legra.ph{response[0]}</code>",
+        text=f"<b>إليك رابط التلكراف الذي تم إنشاؤه  :-</b>\n\n<code>https://te.legra.ph{response[0]}</code>",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton(text="فتح الصوره", url=f"https://te.legra.ph{response[0]}"),
