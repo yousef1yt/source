@@ -64,7 +64,7 @@ async def send_hms(client, message):
                     InlineKeyboardButton("‹ اضغط لرؤية الهمسه 🍀 ›", callback_data="hms_answer"),
                 ],[
                     InlineKeyboardButton(
-                        "‹ 𝖲𝗈𝖴𝗋𝖼𝖾 𝐁𝐞𝐫𝐥𝐢𝐧 ›", url=f"http://t.me/F_U_O"),
+                        "‹ Source X Music ›", url=f"https://t.me/P_6_B"),
             ]
         ]                   
 
