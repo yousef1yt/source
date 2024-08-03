@@ -30,7 +30,7 @@ force_btn = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(   
-              text=f"كِتابات خَارج السرب", url=f"https://t.me/cecrr",)                        
+              text=f". 𝖠 ' 𝟣𝟣𝟣 .", url=f"https://t.me/cecrr",)                        
         ],        
     ]
 )
