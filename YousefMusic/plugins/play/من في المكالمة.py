@@ -1,17 +1,17 @@
 from pyrogram import filters, Client
-from AlexaMusic import app
+from YousefMusic import app
 import asyncio
 from pytgcalls import PyTgCalls, StreamType
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
-from AlexaMusic.core.call import Alexa
-from AlexaMusic.utils.database import *
+from YousefMusic.core.call import Alexa
+from YousefMusic.utils.database import *
 from pytgcalls.exceptions import (NoActiveGroupCall,TelegramServerError,AlreadyJoinedError)
 
 @app.on_message(filters.regex("^مين في الكول$"))
 async def strcall(client, message):
     assistant = await group_assistant(Alexa,message.chat.id)
     try:
-        await assistant.join_group_call(message.chat.id, AudioPiped("./Alexa/assets/call.mp3"), stream_type=StreamType().pulse_stream)
+        await assistant.join_group_call(message.chat.id, AudioPiped("./YousefMusic/assets/call.mp3"), stream_type=StreamType().pulse_stream)
         text="الناس الكاعده تسولف :\n\n"
         participants = await assistant.get_participants(message.chat.id)
         k =0
