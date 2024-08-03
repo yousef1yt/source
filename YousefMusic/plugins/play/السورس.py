@@ -28,15 +28,15 @@ async def huhh(client: Client, message: Message):
                     InlineKeyboardButton(
                         "𖥻 𝗖𝗛𝗔𝗡𝗘𝗟 .", url=f"https://t.me/cecrr"), 
                  InlineKeyboardButton(
-                   "𖥻 𝗦𝗼𝘂𝗿𝗰𝗲 𝗫",       url=f"https://t.me/P_6_B"), 
+                   "‹ Source X Music ›",       url=f"https://t.me/P_6_B"), 
                  
              ],[ 
             InlineKeyboardButton(
-                        "𓏺𓏺 𝐘𝐨𝐮𝐬𝐞𝐟 𓏺𓏺 ⤦اݪ⃪ہۧۛ حٰــ⃪َـمـ⃪َؤيٓ", url=f"https://t.me/y_o_v"), 
+                        "‹ - 𝙔𝙤𝙪𝙨𝙚𝙛 ›", url=f"https://t.me/y_o_v"), 
                       
              ],[ 
             InlineKeyboardButton(
-                      "لتنصيب بوت مماثل", url=f"https://t.me/P_6_B/234"), 
+                      "‹ لتنصيب بوت مماثل ›", url=f"https://t.me/P_6_B/234"), 
                       
              ],[ 
                   InlineKeyboardButton(
@@ -51,7 +51,7 @@ async def huhh(client: Client, message: Message):
     )
 
 
-@app.on_message(filters.command(["مطور السورس","يوسف","بلاك","مطور السورس ✯"], ""), group=73) 
+@app.on_message(filters.command(["مطور السورس","يوسف","جو","مطور السورس ✯"], ""), group=73) 
 async def deev(client: Client, message: Message):
      user = await client.get_chat(chat_id="y_o_v")
      name = user.first_name
