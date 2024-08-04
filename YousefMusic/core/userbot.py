@@ -120,7 +120,7 @@ class Userbot(Client):
                 pass
             assistants.append(4)
             try:
-                await self.four.send_message(config.LOGGER_ID, "» تم تشغيل البوت على سورس اكس @P_6_B ✨🎵
+                await self.four.send_message(config.LOGGER_ID, " » تم تشغيل البوت على سورس اكس @P_6_B ✨🎵")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
