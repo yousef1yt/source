@@ -39,8 +39,7 @@ from YousefMusic.utils.logger import play_logs
 from YousefMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical, CHANNEL_SUDO, YAFA_NAME, YAFA_CHANNEL
 from config import BANNED_USERS, lyrical
-
-):# كتابة يوسف مطور سورس اكس
+ 
     do = requests.get(
         f"https://api.telegram.org/bot{BOT_TOKEN}/getChatMember?chat_id=@{CHANNEL_SUDO}&user_id={message.from_user.id}").text
     if do.count("left") or do.count("Bad Request: user not found"):
