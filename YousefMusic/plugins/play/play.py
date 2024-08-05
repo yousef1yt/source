@@ -20,7 +20,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from YousefMusic import Apple, Resso, Spotify, Telegram, YouTube, app
-from YousefMusic.core.call import Alexa
+from YousefMusic.core.call import Zelzaly
 from YousefMusic.utils import seconds_to_min, time_to_seconds
 from YousefMusic.utils.channelplay import get_channeplayCB
 from YousefMusic.utils.database import is_video_allowed
