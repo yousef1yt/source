@@ -16,6 +16,12 @@
         "description": "⦗ @Botfather ⦘ ↫ تـــوكـــن الـبـوت",
         "value": "7047183887:AAFA8pfgf9gt4vDy_1BnKzD2xLGPNUs4Rq8",
         "required": true
+
+      },  
+      "CHANNEL_SUDO": {
+        "description": "⦗ يوزر قناتك ⦘ ↫ يوزر قناتك الاشتراك الاجباري بدون @",
+        "value": "",
+        "required": true
       },
       "OWNER_ID": {
         "description": "⦗ ايـــدي المطـــور ⦘ ↫ مطـــور بـــوت الميـــوزك",
