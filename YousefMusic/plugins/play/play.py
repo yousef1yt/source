@@ -23,7 +23,6 @@ from YousefMusic import Apple, Resso, Spotify, Telegram, YouTube, app
 from YousefMusic.core.call import Zelzaly
 from YousefMusic.utils import seconds_to_min, time_to_seconds
 from YousefMusic.utils.channelplay import get_channeplayCB
-from YousefMusic.utils.database import is_video_allowed
 from YousefMusic.utils.decorators.language import languageCB
 from YousefMusic.utils.decorators.play import PlayWrapper
 from YousefMusic.utils.formatters import formats
