@@ -35,7 +35,6 @@ from YousefMusic.utils.inline.play import (
 from YousefMusic.utils.logger import play_logs
 from YousefMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical, CHANNEL_SUDO, YAFA_NAME, YAFA_CHANNEL
-from strings import get_command
 from YousefMusic.utils.database import is_served_user
 
 # Command
