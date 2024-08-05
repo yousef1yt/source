@@ -28,14 +28,11 @@ LOGGER_ID = int(getenv("LOGGER_ID", None))
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 6094238403))
 
-CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "cecrr"
+CHANNEL_SUDO = int(getenv("CHANNEL_SUDO")
 )  # ???? ????? ???? @
-YAFA_NAME = getenv(
-    "YAFA_NAME", ". 𝖠 ' 𝟣𝟣𝟣 ."
+YAFA_NAME = int(getenv("YAFA_NAME")
 )  # ??? ?????
-YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/cecrr"
+YAFA_CHANNEL = int(getenv("YAFA_CHANNEL")
 )  # ???? ?????
 # ???? ?????
 
