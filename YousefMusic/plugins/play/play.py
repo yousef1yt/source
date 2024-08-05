@@ -19,6 +19,8 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message, Inlin
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
+from config import BOT_TOKEN
+from strings.filters import command
 from YousefMusic import Apple, Resso, Spotify, Telegram, YouTube, app
 from YousefMusic.core.call import Zelzaly
 from YousefMusic.utils import seconds_to_min, time_to_seconds
@@ -26,7 +28,8 @@ from YousefMusic.utils.channelplay import get_channeplayCB
 from YousefMusic.utils.decorators.language import languageCB
 from YousefMusic.utils.decorators.play import PlayWrapper
 from YousefMusic.utils.formatters import formats
-from YousefMusic.utils.inline.play import (
+from YousefMusic.utils.inline import (
+    botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
@@ -35,28 +38,8 @@ from YousefMusic.utils.inline.play import (
 from YousefMusic.utils.logger import play_logs
 from YousefMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical, CHANNEL_SUDO, YAFA_NAME, YAFA_CHANNEL
-from YousefMusic.utils.database import is_served_user
+from config import BANNED_USERS, lyrical
 
-# Command
-PLAY_COMMAND = get_command("PLAY_COMMAND")
-
-
-@app.on_message(
-    command(PLAY_COMMAND, "")
-    & filters.group
-    & ~BANNED_USERS
-)
-@PlayWrapper
-async def play_commnd(
-    client,
-    message: Message,
-    _,
-    chat_id,
-    video,
-    channel,
-    playmode,
-    url,
-    fplay,
 ):# كتابة يوسف مطور سورس اكس
     do = requests.get(
         f"https://api.telegram.org/bot{BOT_TOKEN}/getChatMember?chat_id=@{CHANNEL_SUDO}&user_id={message.from_user.id}").text
