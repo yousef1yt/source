@@ -20,7 +20,17 @@
       },  
       "CHANNEL_SUDO": {
         "description": "⦗ يوزر قناتك ⦘ ↫ يوزر قناتك الاشتراك الاجباري بدون @",
-        "value": "",
+        "value": "cecrr",
+        "required": true
+      },  
+      "YAFA_NAME": {
+        "description": "⦗ اسم قناتك ⦘ ↫ اسم قناتك الاشتراك الاجباري  ",
+        "value": "اضغط هنا للاشتراك",
+        "required": true
+      },  
+      "YAFA_CHANNEL": {
+        "description": "⦗ رابط قناتك ⦘ ↫ رابط قناتك الاشتراك الاجباري  ",
+        "value": "https://t.me/cecrr",
         "required": true
       },
       "OWNER_ID": {
