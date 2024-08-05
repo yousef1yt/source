@@ -28,14 +28,6 @@ LOGGER_ID = int(getenv("LOGGER_ID", None))
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 6094238403))
 
-CHANNEL_SUDO = int(getenv("CHANNEL_SUDO")
-)  # ???? ????? ???? @
-YAFA_NAME = int(getenv("YAFA_NAME")
-)  # ??? ?????
-YAFA_CHANNEL = int(getenv("YAFA_CHANNEL")
-)  # ???? ?????
-# ???? ?????
-
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -50,7 +42,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
-
+CHANNEL_SUDO = getenv("CHANNEL_SUDO", "ceccr")
+YAFA_NAME = getenv("YAFA_NAME", "اضغط هنا للاشترااك)
+YAFA_CHANNEL = getenv("YAFA_CHANNEL", "https://t.me/cecrr")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/P_6_B")
 
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/cecrr")
