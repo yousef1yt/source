@@ -43,7 +43,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 CHANNEL_SUDO = getenv("CHANNEL_SUDO", "ceccr")
-YAFA_NAME = getenv("YAFA_NAME", "اضغط هنا للاشترااك)
+YAFA_NAME = getenv("YAFA_NAME", "اضغط هنا للاشترااك")
 YAFA_CHANNEL = getenv("YAFA_CHANNEL", "https://t.me/cecrr")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/P_6_B")
 
